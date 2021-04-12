@@ -4,3 +4,6 @@
 Позволяет контролировать количество событий при нагрузке
 
 Формат запуска: hsm_stat.jar <filename> <alert_quantity=50> <mode=default/verbose>
+
+![howto](http://i3.ytimg.com/vi/9v9jmRlm03M/maxresdefault.jpg)
+[YouTube howto](https://www.youtube.com/watch?v=9v9jmRlm03M)
