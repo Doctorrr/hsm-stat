@@ -5,5 +5,5 @@
 
 Формат запуска: hsm_stat.jar <filename> <alert_quantity=50> <mode=default/verbose>
 
-![howto](http://i3.ytimg.com/vi/9v9jmRlm03M/maxresdefault.jpg)
+![howto](http://i3.ytimg.com/vi/9v9jmRlm03M/maxresdefault.jpg)(https://www.youtube.com/watch?v=9v9jmRlm03M)
 [YouTube howto](https://www.youtube.com/watch?v=9v9jmRlm03M)
