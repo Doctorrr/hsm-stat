@@ -10,7 +10,7 @@ $ java - jar hsm_stat.jar filename [alert_quantity] [mode]
 | ------------- | ------------- |------------- |
 | filename  | нет  | имя (или путь) обрабатываемого файла |
 | alert_quantity | 50  | на сколько пакетов реагировать в режиме default |
-| mode | default  | verbose режим выводит все секунды, а не только алерты |
+| mode | default  | verbose режим выводит все секунды, а default -- только алерты |
 
 Примеры:
 ```
