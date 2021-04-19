@@ -3,7 +3,7 @@
  
 Позволяет контролировать количество пакетов при нагрузке и следить за лимитами лицензий. Формат запуска: 
 ```
-java - jar hsm_stat.jar filename alert_quantity=50 mode=default/verbose
+$ java - jar hsm_stat.jar filename [alert_quantity] [mode]
 ```
 
 | Параметр  | По умолчанию | Описание |
@@ -12,5 +12,11 @@ java - jar hsm_stat.jar filename alert_quantity=50 mode=default/verbose
 | alert_quantity | 50  | на сколько пакетов реагировать в режиме default |
 | mode | default  | verbose режим выводит все секунды, а не только алерты |
 
+Примеры:
+```
+$ java - jar hsm_stat.jar /home/doctorrr/crypto3.log
+$ java - jar hsm_stat.jar /home/doctorrr/crypto1.log 45
+$ java - jar hsm_stat.jar /home/doctorrr/crypto2.log 50 verbose
+```
 ![howto](http://i3.ytimg.com/vi/9v9jmRlm03M/maxresdefault.jpg)
 [YouTube howto](https://www.youtube.com/watch?v=9v9jmRlm03M)
